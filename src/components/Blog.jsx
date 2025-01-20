@@ -4,32 +4,32 @@ import { ArrowRightIcon } from "@heroicons/react/16/solid";
 const Blog = () => {
   const posts = [
     {
-      image: "src/assets/blog1.png",
+      image: "/assets/blog1.png",
       title: "UX review presentations",
       description:
         "How do you create compelling presentations that wow your colleagues and impress your managers?",
       author: {
-        image: "src/assets/author1.png",
+        image: "/assets/author1.png",
         name: "Olivia Rhye",
       },
     },
     {
-      image: "src/assets/blog2.png",
+      image: "/assets/blog2.png",
       title: "Migrating to Linear 101",
       description:
         "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get started.",
       author: {
-        image: "src/assets/author2.png",
+        image: "/assets/author2.png",
         name: "Phoenix Baker",
       },
     },
     {
-      image: "src/assets/blog3.png",
+      image: "/assets/blog3.png",
       title: "Building your API Stack",
       description:
         "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
       author: {
-        image: "src/assets/author3.png",
+        image: "/assets/author3.png",
         name: "Lana Steiner",
       },
     },

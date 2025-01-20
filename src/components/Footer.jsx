@@ -151,7 +151,7 @@ const Footer = () => {
           href="/"
           className="mb-2 mb-lg-0 "
         >
-          <img id="logo" src="src\assets\Vector.svg" />
+          <img id="logo" src="\assets\Vector.svg" />
         </a>
         <small className="mb-3 text-muted">© 2077 zysktechnologies. All rights reserved.</small>
       </div>

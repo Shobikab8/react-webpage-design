@@ -40,7 +40,7 @@ const Hero = () => {
       <div className="overflow-hidden" style={{ maxHeight: "80vh" }}>
         <div className="container px-5">
           <img
-            src="src\assets\image 1.png"
+            src="/assets/image 1.png"
             className="img-fluid border rounded-3 mb-4"
             alt="Example image"
             width="2000px"

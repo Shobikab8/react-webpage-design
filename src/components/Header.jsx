@@ -13,7 +13,7 @@ const Header = () => {
               href="/"
               className="d-flex align-items-center mb-2 mb-md-0 link-body-emphasis text-decoration-none"
             >
-              <img id="logo" src="src/assets/Vector.svg" alt="Logo" />
+              <img id="logo" src="/assets/Vector.svg" alt="Logo" />
             </a>
 
             <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 me-auto mx-3">
@@ -136,7 +136,7 @@ const Header = () => {
               href="/"
               className="d-flex align-items-center link-body-emphasis text-decoration-none"
             >
-              <img id="logo" src="src/assets/Vector.svg" alt="Logo" />
+              <img id="logo" src="/assets/Vector.svg" alt="Logo" />
             </a>
             <button
               style={{border: "none", background: "none"}}

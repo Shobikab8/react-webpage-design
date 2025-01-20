@@ -12,7 +12,7 @@ const Clients = () => {
             {partners.map((partner, index) => (
               <div key={index} xs={6} md={2} className="col-6 col-md text-center">
                 <img 
-                  src={`src/assets/Fictional company logo${index+1}.png`}
+                  src={`/assets/Fictional company logo${index+1}.png`}
                   alt={partner}
                   className="img-fluid opacity-75"
                   style={{ maxHeight: '32px' }}
