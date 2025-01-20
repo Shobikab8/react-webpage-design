@@ -90,7 +90,7 @@ const Header = () => {
             <div className="dropdown text-end">
               <a
                 href="#"
-                className="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                className="d-block link-body-emphasis text-decoration-none"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
@@ -105,7 +105,7 @@ const Header = () => {
               <ul className="dropdown-menu text-small">
                 <li>
                   <a className="dropdown-item" href="#">
-                    New project...
+                    New project
                   </a>
                 </li>
                 <li>
