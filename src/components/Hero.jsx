@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <div className="px-4 pt-5 mb-5 text-center border-bottom">
         <div className="d-flex flex-column align-items-center mb-4">
-        <div className="d-flex gap-3 red-text red-outline p-1">
+        <a href="#"><div className="d-flex gap-3 red-text red-outline p-1">
             <p className="red-bg red-outline mb-0 px-3">New feature</p>
             <p className="mb-0 d-flex align-items-center px-2">Check out the team dashboard <ArrowRightIcon width={10} height={10}/></p>
-        </div>
+        </div></a>
         </div>
       <h1 className="display-6 fw-bold text-body-emphasis">
         Beautiful analytics to grow smarter
