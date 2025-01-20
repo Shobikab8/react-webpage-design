@@ -1,0 +1,79 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.btn{
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0 0.5px 2px gray;
+}
+
+.btn-demo{
+  border-radius: 40px;
+}
+
+.btn-red{
+  background-color: #E63F3A;
+  color: white;
+  outline: #E63F3A;
+}
+.btn-red:hover{
+  background-color: #E63F3A;
+}
+
+.signup{
+  border-radius: 40px;
+}
+
+.red-text{
+  color: #E63F3A;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0;
+  word-wrap: no-wrap;
+}
+
+.red-outline{
+  border: 2px solid rgba(230, 63, 58, 0.4);
+  border-radius: 24px;
+  max-width: max-content
+}
+
+
+.icon{
+  /* border border-2 rounded-2 shadow p-2 */
+  display: inline-block;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px rgb(227, 227, 227);
+  padding: 6.5px 11px;
+  margin-bottom: 20px;
+  
+}
+
+.footer-p{
+  font-size: 15px;
+  color: rgb(63, 63, 63);
+  font-weight: 500;
+}
+
+.footer-link a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-learn{
+  border-color: rgba(63, 63, 63, 0.3);
+  font-weight: 500;
+  
+}
+
+
+@media only screen and (max-width: 560px) {
+  .red-text{
+    font-size: 10px;
+  }
+}
